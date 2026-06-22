@@ -107,7 +107,10 @@ The scripts in this repository reproduce the simulation studies and real-data an
 
 For questions regarding the methodology or code, please contact:
 
-Hemant K. Tiwari
-Department of Biostatistics
-School of Public Health
-The University of Alabama at Birmingham
+## Correspondence
+
+Hemant K. Tiwari  
+Department of Biostatistics  
+School of Public Health  
+The University of Alabama at Birmingham  
+Email: htiwari@uab.edu
