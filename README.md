@@ -107,10 +107,6 @@ The scripts in this repository reproduce the simulation studies and real-data an
 
 For questions regarding the methodology or code, please contact:
 
-## Correspondence
-
-For questions regarding the methodology or code, please contact:
-
 Hemant K. Tiwari<br>
 Email: htiwari@uab.edu<br>
 Department of Biostatistics<br>
