@@ -1,0 +1,24 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# Results
+results/
+results_combined/
+results_ivnum_weak/
+results_ivnum_weak_combined/
+real_data_results/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
