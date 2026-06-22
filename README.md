@@ -45,6 +45,10 @@ In addition to the simulation studies, this repository contains code used for th
 ## Repository Structure
 
 ```text
+LICENSE
+README.md
+.gitignore
+
 simulation_code/
 ├── 01_scenario_definitions.R
 ├── 02_mrbinary_methods.R
