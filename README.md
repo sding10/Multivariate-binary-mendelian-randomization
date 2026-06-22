@@ -6,20 +6,20 @@ This repository contains the R code used for the simulation studies and real-dat
 
 ## Authors
 
-* Sandeep C. Vejandla*
-* Mengchen Ding*
-* Phillip H. Allman
-* Inmaculada Aban
-* Dustin Long
-* Amit Patki
-* Todd MacKenzie
-* Marguerite Irvin
-* Leslie Lange
-* Ethan Lange
-* Gary Cutter
-* Hemant K. Tiwari
+- Sandeep C. Vejandla*
+- Mengchen Ding*
+- Phillip H. Allman
+- Inmaculada Aban
+- Dustin Long
+- Amit Patki
+- Todd MacKenzie
+- Marguerite Irvin
+- Leslie Lange
+- Ethan Lange
+- Gary Cutter
+- Hemant K. Tiwari
 
-* Contributed equally to this work.
+\* Contributed equally to this work.
 
 ## Overview
 
