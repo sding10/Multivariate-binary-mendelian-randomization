@@ -109,8 +109,10 @@ For questions regarding the methodology or code, please contact:
 
 ## Correspondence
 
-Hemant K. Tiwari  
-Department of Biostatistics  
-School of Public Health  
-The University of Alabama at Birmingham  
-Email: htiwari@uab.edu
+For questions regarding the methodology or code, please contact:
+
+Hemant K. Tiwari<br>
+Email: htiwari@uab.edu<br>
+Department of Biostatistics<br>
+School of Public Health<br>
+The University of Alabama at Birmingham
