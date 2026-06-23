@@ -1,6 +1,6 @@
 # Multivariate Binary Mendelian Randomization with Multiple Genetic Instruments
 
-This repository contains the R code used for the simulation studies and real-data analysis described in the manuscript:
+This repository provides the code used to evaluate and compare instrumental variable methods for Mendelian randomization with binary exposures and binary outcomes.
 
 **The Multivariate Binary Mendelian Randomization Method with Multiple Genetic Instruments**
 
@@ -60,6 +60,15 @@ simulation_code/
 
 real_data_analysis/
 └── 01_regards_real_data_analysis.R
+
+table_figure_generation/
+├── create_figure_1.py
+├── create_figure_2.py
+├── create_figure_3.py
+├── create_figure_4.py
+├── create_figure_5.py
+└── create_supplementary_tables.py
+
 ```
 
 ## Script Descriptions
@@ -76,6 +85,17 @@ real_data_analysis/
 | 06_run_iv_number_experiment.R   | Performs sensitivity analyses varying the number of instrumental variables |
 | 07_combine_iv_number_results.R  | Combines outputs from the IV-number sensitivity analyses                   |
 
+### Table and Figure Generation
+
+| Script                         | Description                                          |
+| ------------------------------ | ---------------------------------------------------- |
+| create_figure_1.py             | Generates Figure 1 from simulation summary results   |
+| create_figure_2.py             | Generates Figure 2 from simulation summary results   |
+| create_figure_3.py             | Generates Figure 3 from simulation summary results   |
+| create_figure_4.py             | Generates Figure 4 from simulation summary results   |
+| create_figure_5.py             | Generates Figure 5 from simulation summary results   |
+| create_supplementary_tables.py | Generates supplementary tables used in the manuscript |
+
 ### Real Data Analysis
 
 | Script                          | Description                                                                       |
@@ -86,16 +106,18 @@ real_data_analysis/
 
 R version 4.0 or later.
 
-Required packages include:
+Python 3.9 or later.
 
-* dplyr
-* tidyr
-* purrr
-* readr
-* MASS
-* Matrix
+Required R packages include:
 
-Additional packages may be required depending on the computing environment.
+- dplyr
+- tidyr
+- purrr
+- readr
+- MASS
+- Matrix
+
+Additional Python packages may be required for figure and table generation.
 
 ## Data Availability
 
@@ -105,14 +127,30 @@ The REGARDS individual-level dataset is not included due to data-use restriction
 
 ## Reproducibility
 
-The scripts in this repository reproduce the simulation studies and real-data analyses described in the manuscript.
+The scripts in this repository reproduce the simulation studies, real-data analyses, figures, and supplementary tables described in the manuscript.
+
+A typical workflow is:
+
+1. Define simulation scenarios (`01_scenario_definitions.R`)
+2. Run simulation studies (`03_run_single_job.R`, `04_simulation_engine.R`)
+3. Combine simulation outputs (`05_combine_simulation_results.R`)
+4. Run IV-number sensitivity analyses (`06_run_iv_number_experiment.R`)
+5. Perform the REGARDS real-data analysis (`01_regards_real_data_analysis.R`)
+6. Generate publication figures and supplementary tables using the Python scripts in `table_figure_generation/`
 
 ## Correspondence
 
 For questions regarding the methodology or code, please contact:
 
-Hemant K. Tiwari<br>
-Email: htiwari@uab.edu<br>
+Sandeep C. Vejandla, PhD<br>
+Email: vsc4u@uab.edu<br>
 Department of Biostatistics<br>
 School of Public Health<br>
 The University of Alabama at Birmingham
+
+## Citation
+
+If you use this code, please cite:
+
+Vejandla SC, Ding M, et al.
+The Multivariate Binary Mendelian Randomization Method with Multiple Genetic Instruments.
